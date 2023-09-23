@@ -40,7 +40,7 @@ print("¿Invitas a bailar a tu crush? Decide:")
 
 invitacion = input("¿SÍ O NO?: ")
 
-if invitacion == "SÍ":
+if invitacion == "SI":
     print("Valentía, eso es lo que corre por tu sangre. Te acepta la pieza (una salsita bien rosa y romántica)")
 
 else:
@@ -48,7 +48,7 @@ else:
 
 print("¿Cómo bailas, te luces o te diviertes? Decide:")
 
-forma_de_bailar = input("¿BAILO O ME DIVIERTO?: ")
+forma_de_bailar = input("¿ME LUZCO O ME DIVIERTO?: ")
 
 if forma_de_bailar == "ME DIVIERTO":
     print("Bailaste increíble, además hiciste disfrutar del baile a tu crush e incluso le sacaste risas. Después de un par de canciones más se sientan y empiezan una buena conversación")
@@ -56,11 +56,11 @@ if forma_de_bailar == "ME DIVIERTO":
 else:
     print("Que engreid@ te viste, claro que te robaste el show, pero perdiste de vista disfrutar el baile junto a tu crush, se acabó la canción y se  sentó, te dejo sol@")
 
-input("¿Hablas de tí o le preguntas sobre ella? Decide:")
+print("¿Hablas de tí o le preguntas sobre ella? Decide:")
 
 conversacion = input("¿PREGUNTAR O HABLAR?: ")
 
-if conversacion == "PREGUNTO":
+if conversacion == "PREGUNTAR":
     print("Que buen escucha eres. Tu crush te contó cosas de su vida y de sus gustos, ahora te gusta mucho más, tiene una personalidad que te vuelve loc@")
 
 else:
@@ -76,7 +76,7 @@ if toxicidad == "TRANQUI":
 else:
     print("Celos@, tu crush no es de tu pertenencia, en toda la noche no se te vuelve a acercar en toda la noche")
 
-input("Es hora de despedirse, acompañas al carro a tu crush, ¿Cómo te despides? Decide:")
+print("Es hora de despedirse, acompañas al carro a tu crush, ¿Cómo te despides? Decide:")
 
 despedida = input("¿BESO O ABRAZO?: ")
 
@@ -100,6 +100,6 @@ else:
     print("Qué duro, es entendible tú decisión, pero pierdes, el objetivo era disfrutar con tus amigos, no sufrir por tu ex")
 
 
-print("¡Felicidades! Lo lograste, cumpliste el objetivo, a pesar de la desilusión amorosa, disfrutaste con tus amigos, allos siempre estuviero ahí ¿No?")
+print("¡Felicidades! Lo lograste, cumpliste el objetivo, a pesar de la desilusión amorosa, disfrutaste con tus amigos, al fin y al cabo el objetivo era disfrutar con ellos")
 
-input("¿BUEN FINAL NO?")
+input("¿BUEN FINAL NO? ")
